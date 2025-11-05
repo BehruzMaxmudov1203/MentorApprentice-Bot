@@ -1,0 +1,13 @@
+.env
+__pycache__/
+venv/
+.idea/
+ENV/
+env/
+.venv/
+*.iml
+*.py[cod]
+*$py.class
+*.log
+*.tmp
+*.iws
