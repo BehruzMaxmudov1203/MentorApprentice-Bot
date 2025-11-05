@@ -5,38 +5,28 @@
 
 ---
 
-## 🚀 Loyiha haqida
-**UzToz Shogirt Bot** – bu Telegram bot bo‘lib, foydalanuvchilarga **ustoz va shogirdlarni bog‘lash**, **ish joyi yoki xodim topish**, hamda **loyiha sheriklarini topish** imkoniyatini beradi.  
+# 🚀 UzToz Shogirt Bot
 
-Foydalanuvchilar quyidagilarni qilishi mumkin:  
+**UzToz Shogirt Bot** – bu Telegram bot bo‘lib, foydalanuvchilarga **ustoz va shogirdlarni bog‘lash**, **ish yoki xodim topish**, hamda **loyiha sheriklarini topish** imkonini beradi.  
+
+### Foydalanuvchilar quyidagilarni qilishi mumkin:
 - 👨‍🏫 **Ustoz topish**  
 - 🧑‍🎓 **Shogird topish**  
 - 💼 **Ish yoki xodim topish**  
 - 🤝 **Loyiha sherigi topish**  
 
-Bot **Python** va **Aiogram v3** yordamida yozilgan, foydalanuvchi bosqichlarini boshqarish uchun **FSM (Finite State Machine)** ishlatilgan.
+Bot **Python** va **Aiogram v3** yordamida yozilgan, foydalanuvchi bosqichlarini boshqarish uchun **FSM (Finite State Machine)** ishlatiladi.
 
 ---
 
 ## 🧩 Loyiha tuzilishi
 
-### 📘 1. `main.py`
-- Botning asosiy fayli  
-- Aiogram Dispatcher orqali botni ishga tushiradi  
-- Foydalanuvchi bilan barcha interaktiv jarayonlarni boshqaradi  
-
-### 📗 2. `Register.py`
-- FSM holatlarini belgilaydi (`StatesGroup`)  
-- Forma bosqichlari: ism, yosh, texnologiya, telefon, hudud, kasb va hokazo  
-
-### 📙 3. `Tugma.py`
-- Klaviatura tugmalari va menyular  
-- `return_keyboards()` – asosiy menyu tugmalari  
-- `confirmation_keyboard()` – tasdiqlash tugmalari  
-
-### 📒 4. `.env`
-- Bot TOKEN’ini xavfsiz saqlash uchun  
-- Misol: `TOKEN="Sizning_Bot_Token"`
+| Fayl | Tavsif |
+|------|--------|
+| `main.py` | Botning asosiy fayli, Dispatcher orqali ishga tushadi va foydalanuvchi bilan interaktiv jarayonlarni boshqaradi |
+| `Register.py` | FSM holatlari (`StatesGroup`), foydalanuvchi formasi: ism, yosh, texnologiya, telefon, hudud, kasb va boshqalar |
+| `Tugma.py` | Klaviatura tugmalari va menyular: `return_keyboards()` asosiy menyu, `confirmation_keyboard()` tasdiqlash tugmalari |
+| `.env` | Bot TOKEN’ini xavfsiz saqlash uchun |
 
 ---
 
@@ -72,19 +62,32 @@ Bot **Python** va **Aiogram v3** yordamida yozilgan, foydalanuvchi bosqichlarini
 
 ---
 
+## 📊 Statistika
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=BehruzMaxmudov1203&show_icons=true&theme=tokyonight" alt="Behruz's GitHub stats" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=BehruzMaxmudov1203&theme=tokyonight" alt="GitHub Streak" /> </p> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=BehruzMaxmudov1203&theme=react-dark" alt="GitHub Activity Graph" /> </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BehruzMaxmudov1203&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> 
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BehruzMaxmudov1203&theme=tokyonight" alt="GitHub Streak" /> 
+</p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BehruzMaxmudov1203&theme=react-dark" alt="GitHub Activity Graph" /> 
+</p>
 
-👨‍💻 Muallif
+---
 
-Behruz Maxmudov
-📍 Uzbekistan
-📧 behruzmaxmudov263@gmail.com
+## 👨‍💻 Muallif
 
-🐙 GitHub
+**Behruz Maxmudov**  
+📍 Uzbekistan  
+📧 behruzmaxmudov263@gmail.com  
 
-<p align="center"> ⭐️ Yaratuvchi: <b>Behruz Maxmudov</b> — UzToz Shogirt Bot </p> ```
+---
+
+## 🐙 GitHub
+
+<p align="center"> ⭐️ Yaratuvchi: <b>Behruz Maxmudov</b> — UzToz Shogirt Bot </p> 
+
+---
 
 ## 📦 O‘rnatish
 
@@ -108,7 +111,3 @@ TOKEN="Sizning_Telegram_Bot_Token"
 
 # 5. Botni ishga tushirish
 python main.py
-
-
-
-
