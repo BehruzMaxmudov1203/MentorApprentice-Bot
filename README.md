@@ -1,21 +1,18 @@
 <!-- Banner Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=6C5CE7&center=true&vCenter=true&width=900&lines=🎓+UzToz+Apprentice+Bot;🤝+Mentor+%26+Apprentice;💼+Job+%26+Partner+Search;📲+Telegram+Integration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=6C5CE7&center=true&vCenter=true&width=900&lines=🎓+MentorApprentice+Bot;🤝+Mentor+%26+Apprentice;💼+Job+%26+Partner+Search;📲+Telegram+Integration" alt="Typing SVG" />
 </p>
 
 ---
 
-# 🚀 UzToz Apprentice Bot
+# 🚀 MentorApprentice Bot
 
-**UzToz Apprentice Bot** is a Telegram bot that helps users **connect mentors and apprentices**, **find jobs or employees**, and **search for project partners**.  
+**MentorApprentice Bot** is a Telegram bot that helps users:  
+- **Connect with mentors and apprentices**  
+- **Find jobs or employees**  
+- **Discover project partners**  
 
-### Users can:
-- 👨‍🏫 **Find a mentor**  
-- 🧑‍🎓 **Find an apprentice**  
-- 💼 **Find a job or employee**  
-- 🤝 **Find a project partner**  
-
-The bot is built using **Python** and **Aiogram v3**, with **FSM (Finite State Machine)** to manage multi-step user interactions.
+The bot is built using **Python** and **Aiogram v3**, and it uses **FSM (Finite State Machine)** to handle multi-step user interactions.
 
 ---
 
@@ -23,10 +20,10 @@ The bot is built using **Python** and **Aiogram v3**, with **FSM (Finite State M
 
 | File | Description |
 |------|-------------|
-| `main.py` | Main bot file, runs the Dispatcher and handles all user interactions |
-| `Register.py` | Defines FSM states (`StatesGroup`), user form: name, age, technology, phone, location, profession, etc. |
-| `Tugma.py` | Keyboard buttons and menus: `return_keyboards()` main menu, `confirmation_keyboard()` for confirmation |
-| `.env` | Secure storage of the bot TOKEN |
+| `main.py` | Main bot file; runs the Dispatcher and manages all user interactions |
+| `Register.py` | Defines FSM states (`StatesGroup`) for user registration (name, age, skills, phone, location, profession, etc.) |
+| `Tugma.py` | Keyboard buttons and menus (`return_keyboards()` main menu, `confirmation_keyboard()` for confirmation) |
+| `.env` | Stores bot TOKEN securely |
 
 ---
 
@@ -35,10 +32,10 @@ The bot is built using **Python** and **Aiogram v3**, with **FSM (Finite State M
 - 👥 Connect mentors and apprentices  
 - 💼 Match jobs and employees  
 - 📝 Search for project partners  
-- ✅ Multi-step forms using FSM  
-- 📞 Phone number validation  
-- 🔄 Form editing and confirmation  
-- 🌐 Enter location and technology  
+- ✅ Multi-step form using FSM  
+- 📞 Validate phone numbers  
+- 🔄 Edit and confirm form submissions  
+- 🌐 Specify location and skills  
 
 ---
 
@@ -53,16 +50,16 @@ The bot is built using **Python** and **Aiogram v3**, with **FSM (Finite State M
 
 ## ⚡ Core Concepts
 
-- **FSM (Finite State Machine)** – manages multi-step user interactions  
-- **Aiogram v3** – framework for building Telegram bots  
+- **FSM (Finite State Machine)** – handles multi-step user interactions  
+- **Aiogram v3** – Telegram bot framework  
 - **Environment Variables** – secure storage of bot TOKEN in `.env`  
 - **Dynamic Keyboards** – main menu and confirmation buttons  
-- **Data Formatting** – converts user input into neat messages  
-- **Form Validation & Editing** – checks phone number, age, location, and technology  
+- **Data Formatting** – displays user input as clean messages  
+- **Form Validation & Editing** – validates phone number, age, location, and skills  
 
 ---
 
-## 📊 Statistics
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=BehruzMaxmudov1203&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> 
@@ -77,7 +74,7 @@ The bot is built using **Python** and **Aiogram v3**, with **FSM (Finite State M
 
 ## 🐙 GitHub
 
-<p align="center"> ⭐️ Creator: <b>Behruz Maxmudov</b> — UzToz Apprentice Bot </p> 
+<p align="center"> ⭐️ Creator: <b>Behruz Maxmudov</b> — MentorApprentice Bot </p> 
 
 ---
 
@@ -85,8 +82,8 @@ The bot is built using **Python** and **Aiogram v3**, with **FSM (Finite State M
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/username/UzToz-Shogirt-Bot.git
-cd UzToz-Shogirt-Bot
+git clone https://github.com/username/MentorApprentice-Bot.git
+cd MentorApprentice-Bot
 
 # 2. Create and activate a virtual environment
 python -m venv venv
