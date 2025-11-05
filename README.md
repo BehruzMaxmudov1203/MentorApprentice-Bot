@@ -72,6 +72,20 @@ Bot **Python** va **Aiogram v3** yordamida yozilgan, foydalanuvchi bosqichlarini
 
 ---
 
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=BehruzMaxmudov1203&show_icons=true&theme=tokyonight" alt="Behruz's GitHub stats" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=BehruzMaxmudov1203&theme=tokyonight" alt="GitHub Streak" /> </p> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=BehruzMaxmudov1203&theme=react-dark" alt="GitHub Activity Graph" /> </p>
+
+
+👨‍💻 Muallif
+
+Behruz Maxmudov
+📍 Uzbekistan
+📧 behruzmaxmudov263@gmail.com
+
+🐙 GitHub
+
+<p align="center"> ⭐️ Yaratuvchi: <b>Behruz Maxmudov</b> — UzToz Shogirt Bot </p> ```
+
 ## 📦 O‘rnatish
 
 ```bash
@@ -97,15 +111,4 @@ python main.py
 
 
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=BehruzMaxmudov1203&show_icons=true&theme=tokyonight" alt="Behruz's GitHub stats" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=BehruzMaxmudov1203&theme=tokyonight" alt="GitHub Streak" /> </p> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=BehruzMaxmudov1203&theme=react-dark" alt="GitHub Activity Graph" /> </p>
 
-
-👨‍💻 Muallif
-
-Behruz Maxmudov
-📍 Uzbekistan
-📧 behruzmaxmudov263@gmail.com
-
-🐙 GitHub
-
-<p align="center"> ⭐️ Yaratuvchi: <b>Behruz Maxmudov</b> — UzToz Shogirt Bot </p> ```
