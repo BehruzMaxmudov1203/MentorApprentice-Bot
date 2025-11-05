@@ -1,48 +1,48 @@
 <!-- Banner Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=6C5CE7&center=true&vCenter=true&width=900&lines=🎓+UzToz+Shogirt+Bot;🤝+Ustoz+%26+Shogird;💼+Ish+%26+Sherik+Topish;📲+Telegram+Integratsiyasi" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=6C5CE7&center=true&vCenter=true&width=900&lines=🎓+UzToz+Apprentice+Bot;🤝+Mentor+%26+Apprentice;💼+Job+%26+Partner+Search;📲+Telegram+Integration" alt="Typing SVG" />
 </p>
 
 ---
 
-# 🚀 UzToz Shogirt Bot
+# 🚀 UzToz Apprentice Bot
 
-**UzToz Shogirt Bot** – bu Telegram bot bo‘lib, foydalanuvchilarga **ustoz va shogirdlarni bog‘lash**, **ish yoki xodim topish**, hamda **loyiha sheriklarini topish** imkonini beradi.  
+**UzToz Apprentice Bot** is a Telegram bot that helps users **connect mentors and apprentices**, **find jobs or employees**, and **search for project partners**.  
 
-### Foydalanuvchilar quyidagilarni qilishi mumkin:
-- 👨‍🏫 **Ustoz topish**  
-- 🧑‍🎓 **Shogird topish**  
-- 💼 **Ish yoki xodim topish**  
-- 🤝 **Loyiha sherigi topish**  
+### Users can:
+- 👨‍🏫 **Find a mentor**  
+- 🧑‍🎓 **Find an apprentice**  
+- 💼 **Find a job or employee**  
+- 🤝 **Find a project partner**  
 
-Bot **Python** va **Aiogram v3** yordamida yozilgan, foydalanuvchi bosqichlarini boshqarish uchun **FSM (Finite State Machine)** ishlatiladi.
-
----
-
-## 🧩 Loyiha tuzilishi
-
-| Fayl | Tavsif |
-|------|--------|
-| `main.py` | Botning asosiy fayli, Dispatcher orqali ishga tushadi va foydalanuvchi bilan interaktiv jarayonlarni boshqaradi |
-| `Register.py` | FSM holatlari (`StatesGroup`), foydalanuvchi formasi: ism, yosh, texnologiya, telefon, hudud, kasb va boshqalar |
-| `Tugma.py` | Klaviatura tugmalari va menyular: `return_keyboards()` asosiy menyu, `confirmation_keyboard()` tasdiqlash tugmalari |
-| `.env` | Bot TOKEN’ini xavfsiz saqlash uchun |
+The bot is built using **Python** and **Aiogram v3**, with **FSM (Finite State Machine)** to manage multi-step user interactions.
 
 ---
 
-## 🎯 Asosiy funksiyalar
+## 🧩 Project Structure
 
-- 👥 Ustoz va shogirdlarni bog‘lash  
-- 💼 Ish va xodimlarni bog‘lash  
-- 📝 Loyiha sheriklarini qidirish  
-- ✅ Ko‘p bosqichli forma (FSM)  
-- 📞 Telefon raqamining tekshiruvi  
-- 🔄 Forma qayta to‘ldirish va tasdiqlash  
-- 🌐 Hudud va texnologiya kiriting  
+| File | Description |
+|------|-------------|
+| `main.py` | Main bot file, runs the Dispatcher and handles all user interactions |
+| `Register.py` | Defines FSM states (`StatesGroup`), user form: name, age, technology, phone, location, profession, etc. |
+| `Tugma.py` | Keyboard buttons and menus: `return_keyboards()` main menu, `confirmation_keyboard()` for confirmation |
+| `.env` | Secure storage of the bot TOKEN |
 
 ---
 
-## 🛠 Ishlatilgan texnologiyalar
+## 🎯 Key Features
+
+- 👥 Connect mentors and apprentices  
+- 💼 Match jobs and employees  
+- 📝 Search for project partners  
+- ✅ Multi-step forms using FSM  
+- 📞 Phone number validation  
+- 🔄 Form editing and confirmation  
+- 🌐 Enter location and technology  
+
+---
+
+## 🛠 Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Aiogram](https://img.shields.io/badge/Aiogram-0088CC?style=for-the-badge&logo=python&logoColor=white)
@@ -51,18 +51,18 @@ Bot **Python** va **Aiogram v3** yordamida yozilgan, foydalanuvchi bosqichlarini
 
 ---
 
-## ⚡ Asosiy tushunchalar
+## ⚡ Core Concepts
 
-- **FSM (Finite State Machine)** – foydalanuvchi bosqichlarini boshqaradi  
-- **Aiogram v3** – Telegram bot yaratish uchun framework  
-- **Environment Variables** – `.env` fayli orqali xavfsiz TOKEN saqlash  
-- **Dinamik klaviaturalar** – asosiy menyu va tasdiqlash tugmalari  
-- **Ma’lumotlarni formatlash** – foydalanuvchi kiritgan ma’lumotni chiroyli xabarga aylantiradi  
-- **Forma qayta to‘ldirish va validatsiya** – telefon, yosh, hudud, texnologiya tekshiruvi  
+- **FSM (Finite State Machine)** – manages multi-step user interactions  
+- **Aiogram v3** – framework for building Telegram bots  
+- **Environment Variables** – secure storage of bot TOKEN in `.env`  
+- **Dynamic Keyboards** – main menu and confirmation buttons  
+- **Data Formatting** – converts user input into neat messages  
+- **Form Validation & Editing** – checks phone number, age, location, and technology  
 
 ---
 
-## 📊 Statistika
+## 📊 Statistics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=BehruzMaxmudov1203&show_icons=true&theme=tokyonight" alt="GitHub Stats" /> 
@@ -75,39 +75,31 @@ Bot **Python** va **Aiogram v3** yordamida yozilgan, foydalanuvchi bosqichlarini
 
 ---
 
-## 👨‍💻 Muallif
-
-**Behruz Maxmudov**  
-📍 Uzbekistan  
-📧 behruzmaxmudov263@gmail.com  
-
----
-
 ## 🐙 GitHub
 
-<p align="center"> ⭐️ Yaratuvchi: <b>Behruz Maxmudov</b> — UzToz Shogirt Bot </p> 
+<p align="center"> ⭐️ Creator: <b>Behruz Maxmudov</b> — UzToz Apprentice Bot </p> 
 
 ---
 
-## 📦 O‘rnatish
+## 📦 Installation
 
 ```bash
-# 1. Repozitoriyani klonlash
+# 1. Clone the repository
 git clone https://github.com/username/UzToz-Shogirt-Bot.git
 cd UzToz-Shogirt-Bot
 
-# 2. Virtual muhit yaratish va faollashtirish
+# 2. Create and activate a virtual environment
 python -m venv venv
 # Windows
 .\venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 
-# 3. Kutubxonalarni o‘rnatish
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. .env faylini yaratish va TOKEN qo‘yish
-TOKEN="Sizning_Telegram_Bot_Token"
+# 4. Create a .env file and set your TOKEN
+TOKEN="Your_Telegram_Bot_Token"
 
-# 5. Botni ishga tushirish
+# 5. Run the bot
 python main.py
